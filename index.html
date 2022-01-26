@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShop</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="">
+                <i class="fas fa-utensils"></i>DBFood.
+            </a>
+        </div>
+        <nav class="header__navbar">
+            <ul class="header__navbar-list">
+                <a href="#">
+                    <li class="header__navbar-item">Home</li>
+                </a>
+                <a href="#dishes">
+                    <li class="header__navbar-item">Dishes</li>
+                </a>
+                <a href="#about">
+                    <li class="header__navbar-item">About</li>
+                </a>
+                <a href="#menu">
+                    <li class="header__navbar-item">Menu</li>
+                </a>
+                <a href="#reviews">
+                    <li class="header__navbar-item">Reviews</li>
+                </a>
+                <a href="#order">
+                    <li class="header__navbar-item">Order</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="header__icons">
+            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fas fa-shopping-cart" id="cart-icon"></i>
+            <i class="fas fa-user" id="user-icon"></i>
+        </div>
+        <i class="fas fa-bars" id="mobileNav"></i>
+        <div class="modal-search">
+            <i class="fas fa-times" id="close-search"></i>
+            <div class="modal-search__container">
+                <input type="text" placeholder="Search here...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Slider starts -->
+    <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slide">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12 slide__item">
+                            <div class="slide__box">
+                                <div class="slide__content">
+                                    <p>Our Special Dish</p>
+                                    <h3>Hot Pizza</h3>
+                                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        Cum minima ex quidem ducimus esse quo amet a, quasi dolor quae, velit dolores, 
+                                        eum earum consequuntur? Reiciendis eum dolore aperiam vel.
+                                    </span>
+                                    <a href="" class="link-btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12 slide__item">
+                            <div class="slide__box">
+                                <div class="slide__img">
+                                    <img src="./assets/img/home-img-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Slider ends -->
+    <!-- Our Dishes start -->
+    <div id="dishes">
+        <h3 class="title-heading">Our Dishes</h3>
+        <h1 class="heading">Popular Dishes</h1>
+        <div class="dishes__wrapper">
+            <div class="grid ">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-1.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-2.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-3.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-4.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-5.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 dishes__item">
+                        <div class="dishes__box">
+                            <i class="fas fa-eye dishes__eye"></i>
+                            <i class="fas fa-heart dishes__heart"></i>
+                            <div class="dishes__img">
+                                <img src="./assets/img/dish-6.png" alt="">
+                            </div>
+                            <h3>Humberger</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="buy">
+                                <span>$16.00</span>
+                                <a href="" class="link-btn">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Dishes ends -->
+    <!-- About us start -->
+    <div id="about">
+        <h3 class="title-heading">About Us</h3>
+        <h1 class="heading">WHY CHOOSE US?</h1>
+        <div class="about__wrapper">
+            <div class="grid ">
+                <div class="row">
+                    <div class="col l-6 m-6 c-12 about__item">
+                        <div class="about__box">
+                            <div class="about__img">
+                                <img src="./assets/img/about-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12 about__item">
+                        <div class="about__box">
+                            <div class="about__content">
+                                <h3>Best Food In The Country</h3>
+                                <span>Lorem ipsum dolor sit,amet consectetur adipisicing elit. 
+                                    Velit, quae voluptates. Iste dolorum iure facere ex? 
+                                    Optio, dolores nisi magnam temporibus maiores voluptate, 
+                                    consectetur similique odio accusamus quos enim commodi.
+                                </span>
+                                <div class="about__icons">
+                                    <div class="about__icon">
+                                        <i class="fas fa-shipping-fast"></i> <span>Free Delivery</span>
+                                    </div>
+                                    <div class="about__icon">
+                                        <i class="fas fa-dollar-sign"></i> <span>Easy Payments</span>
+                                    </div>
+                                    <div class="about__icon">
+                                        <i class="fas fa-headset"></i> <span>24/7 Service</span>
+                                    </div>
+                                </div>
+                                <a href="" class="link-btn">Learn More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About us ends -->
+    <!-- Menu starts -->
+    <div id="menu">
+        <h3 class="title-heading">Our Menu</h3>
+        <h1 class="heading">TODAY'S SPECIALITY</h1>
+        <div class="menu__wrapper">
+            <div class="grid ">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-1.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-2.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-3.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-4.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-5.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 menu__item">
+                        <div class="menu__box">
+                            <i class="fas fa-heart menu__heart"></i>
+                            <div class="menu__img">
+                                <img src="./assets/img/menu-6.jpg" alt="">
+                            </div>
+                            <div class="menu__content">
+                                <div class="menu__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Delicious Food</h3>
+                                <span>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                                <a href="" class="link-btn">Add to cart</a>
+                                <p>$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu ends -->
+    <!-- reviews start -->
+    <div id="reviews">
+        <h3 class="title-heading">Customer's Review</h3>
+        <h1 class="heading">WHAT THEY SAY</h1>
+        <div class="reviews__wrapper">
+            <div class="grid ">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12 reviews__item">
+                        <div class="reviews__box">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./assets/img/pic-1.png" alt="">
+                                </div>
+                                <div class="reviews__user-info">
+                                    <h3>John Smith</h3>
+                                    <div class="reviews__stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi, id mollitia quae eos deserunt vero reiciendis perferendis sint possimus odit neque atque voluptate molestias. Odio delectus possimus assumenda a?
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 reviews__item">
+                        <div class="reviews__box">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./assets/img/pic-2.png" alt="">
+                                </div>
+                                <div class="reviews__user-info">
+                                    <h3>John Smith</h3>
+                                    <div class="reviews__stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi, id mollitia quae eos deserunt vero reiciendis perferendis sint possimus odit neque atque voluptate molestias. Odio delectus possimus assumenda a?
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 reviews__item">
+                        <div class="reviews__box">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="reviews__user">
+                                <div class="reviews__user-img">
+                                    <img src="./assets/img/pic-3.png" alt="">
+                                </div>
+                                <div class="reviews__user-info">
+                                    <h3>John Smith</h3>
+                                    <div class="reviews__stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi, id mollitia quae eos deserunt vero reiciendis perferendis sint possimus odit neque atque voluptate molestias. Odio delectus possimus assumenda a?
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews ends  -->
+
+    <!-- Order start -->
+    <div id="order">
+        <h3 class="title-heading">Order Now</h3>
+        <h1 class="heading">FREE AND FAST</h1>
+        <div class="order__wrapper">
+            <form action="">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="form__input">
+                                <span>Your name</span>
+                                <input type="text" placeholder="enter your name">
+                            </div>
+                            <div class="form__input">
+                                <span>Your order</span>
+                                <input type="text" placeholder="enter food name">
+                            </div>
+                            <div class="form__input">
+                                <span>How Much</span>
+                                <input type="text" placeholder="how many order">
+                            </div>
+                            <div class="form__input">
+                                <span>Your address</span>
+                                <textarea cols="30" rows="10" placeholder="enter your address"> </textarea>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <div class="form__input">
+                                <span>Your Number</span>
+                                <input type="number" placeholder="Enter your number">
+                            </div>
+                            <div class="form__input">
+                                <span>Additional Food</span>
+                                <input type="text" placeholder="extra with food">
+                            </div>
+                            <div class="form__input">
+                                <span>Date and time</span>
+                                <input type="text" placeholder="dd/mm/yyyy">
+                            </div>
+                            <div class="form__input">
+                                <span>Your message</span>
+                                <textarea cols="30" rows="10" placeholder="enter your message"> </textarea>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <input type="submit" value="Order Now" class="link-btn">
+            </form>
+
+        </div>
+    </div>
+    <!-- Order ends -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__box">
+                            <h3>Quick Links</h3>
+                            <a href="">Home</a>
+                            <a href="">Dishes</a>
+                            <a href="">About</a>
+                            <a href="">Menu</a>
+                            <a href="">Reviews</a>
+                            <a href="">Order</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__box">
+                            <h3>Contact info</h3>
+                            <a href="">+123456789</a>
+                            <a href="">zyz@gmail.com</a>
+                            <a href="">Ha Noi, Viet Nam</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__box">
+                            <h3>Follow us</h3>
+                            <a href="">facebook</a>
+                            <a href="">twitter</a>
+                            <a href="">instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__credit">
+                copyright @ 2022 by
+                <span>DB1998</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends  -->
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

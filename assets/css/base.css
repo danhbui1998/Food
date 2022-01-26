@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    transition: all 0.2s linear;
+    transition-delay: 0.2s;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+}
+
+:root {
+    --green-color: #27ae60;
+    --black-color: #192a56;
+    --white-color: #fff;
+    --light-color: #666;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.link-btn {
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.link-btn:hover {
+    background-color: var(--green-color);
+    letter-spacing: 1px;
+}
+
+.title-heading {
+    font-size: 20px;
+    color: var(--green-color);
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: var(--black-color);
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
